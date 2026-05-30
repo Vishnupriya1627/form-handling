@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form handling.css" />
+  </head>
+  <body>
+    <div class="body">
+      <div class="solid">Form Handling</div>
+      <div class="container">
+        <div class="form">
+          <form method="get">
+            <label for="email"
+              >Email: <br /><input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Example@email.com"
+              />
+            </label>
+            <br />
+            <br />
+            <p class="message1" style="color: red">
+              Make sure email has more than 3 characters and has @ and a .
+            </p>
+            <br /><br />
+
+            <label for="password"
+              >Password: <br /><input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Your password"
+              />
+            </label>
+            <br /><br />
+            <p class="message2" style="color: red">
+              Make sure password is more than 8 characters
+            </p>
+            <p class="success"></p>
+            <br /> 
+
+            
+            <button type="submit" id="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="form handling.js"></script>
+  </body>
+</html>
